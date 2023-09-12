@@ -1,0 +1,29 @@
+Week 10 Highway homework
+Create a Javascript class called Highway, that has the following properties:
+* vehicleList (array)
+* vignetteCost (number)
+Implement the following methods for the highway:
+* enterHighway
+Create another class called Vehicle, that has the following properties:
+* name (string)
+* runningSpeed (number: Number)
+* driver (Driver)
+Implement the following methods for the Vehicle:
+* increaseSpeed(speed: Number)
+Create another class Bus that inherits Vehicle
+Create another class Car that inherits Vehicle
+Create another class Truck (Tir) that inherits Vehicle
+Create another class Driver, the has the following properties
+* name (String)
+* walletMoney (Number)
+Create another class Police, that inherit Vehicle.
+Implement the following Police methods:
+* checkVehicleSpeed(vehicle: Vehicle)
+The police driver has the following static properties:
+* speedLimitsByVehicleType
+* fineByBehicleType
+Resolve:
+1. A car needs a driver to be driven.
+2. When a car enters the highway the driver has to pay the highway fee (the vignette), and the speed is increased
+3. A police car enters the highway. The driver doesn't pay for the vignette.
+4. The police start verifying the Highway vehicles and applying fines while checking if the speed limit is reached by each vehicle type. (edited) 
